@@ -1,0 +1,29 @@
+*,
+*::after
+*::before{
+    margin:auto
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: azure;
+    display:inline-flex;
+
+}
+
+#left {
+    background-color: darkcyan;
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+#right {
+    background-color: 100vw;
+    width: 300px;
+    float: right;
+
+
+}
